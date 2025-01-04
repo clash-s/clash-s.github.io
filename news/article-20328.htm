@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-20328.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@RequestBody 接收复杂实体类集合</title>
+        <meta name="description" content="想要在 后台接收josn返回的复杂List  直接给代码 	例: 	@RequestMapping("/JsonSaveCustom") 	public ResultVO JsonSaveCustom" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>@RequestBody 接收复杂实体类集合</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="content_views" class="markdown_views prism-tomorrow-night"> <pre><code class="prism language-java">	想要在 后台接收josn返回的复杂List  直接给代码 	例<span class="token operator">:</span> 	<span class="token annotation punctuation">@RequestMapping</span><span class="token punctuation">(</span><span class="token string">"/JsonSaveCustom"</span><span class="token punctuation">)</span> 	<span class="token keyword">public</span> ResultVO <span class="token function">JsonSaveCustom</span><span class="token punctuation">(</span>HttpServletRequest request<span class="token punctuation">,</span> <span class="token annotation punctuation">@RequestBody</span> bean_list objList<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> list <span class="token operator">=</span> objList<span class="token punctuation">.</span><span class="token function">getJsonbeans</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 		List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> list2 <span class="token operator">=</span> objList<span class="token punctuation">.</span><span class="token function">getJsonbeans2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 		System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span><span class="token punctuation">;</span> 		System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>list2<span class="token punctuation">)</span><span class="token punctuation">;</span>     	<span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">ResultVO</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	前台： 以下只给例子 页面具体的处理就不写了 你是用循环添加什么的都可以  只要数据格式正确即可 	var objList <span class="token operator">=</span> <span class="token punctuation">{<!-- --></span><span class="token punctuation">}</span><span class="token punctuation">;</span> 	objList<span class="token punctuation">.</span>flowid <span class="token operator">=</span> <span class="token string">'123456'</span><span class="token punctuation">;</span> 	objList<span class="token punctuation">.</span>id <span class="token operator">=</span> <span class="token string">'abcdefg'</span><span class="token punctuation">;</span> 	objList<span class="token punctuation">.</span>roleid <span class="token operator">=</span> <span class="token string">'654321'</span><span class="token punctuation">;</span> 	 	var jsonbeans <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> 	var input <span class="token operator">=</span> $<span class="token punctuation">(</span><span class="token string">".budget_tableone"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">"input"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	    input<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span>function <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 	    	jsonbeans<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{<!-- --></span><span class="token string">"name"</span><span class="token operator">:</span>$<span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">"name"</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"value"</span><span class="token operator">:</span>$<span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">val</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token operator">/</span><span class="token punctuation">,</span><span class="token operator">/</span>g<span class="token punctuation">,</span><span class="token string">'β'</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	objList<span class="token punctuation">.</span>jsonbeans <span class="token operator">=</span> jsonbeans<span class="token punctuation">;</span> 	 	var jsonbeans2<span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> 	var table1 <span class="token operator">=</span> $<span class="token punctuation">(</span>$<span class="token punctuation">(</span>$<span class="token punctuation">(</span><span class="token string">".budget_tabletwo&gt;table&gt;tbody"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>children<span class="token punctuation">)</span><span class="token punctuation">;</span> 	    table1<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span>function <span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 	    	var trList<span class="token operator">=</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span> 	    	$<span class="token punctuation">(</span>$<span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>children<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span>function <span class="token punctuation">(</span>j<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 	    		trList<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>$<span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token operator">/</span><span class="token punctuation">,</span><span class="token operator">/</span>g<span class="token punctuation">,</span><span class="token string">'β'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	    	<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 			jsonbeans2<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{<!-- --></span><span class="token string">"array"</span><span class="token operator">:</span>trList<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token comment">//这里就是嵌套的</span> 	    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>jsonbeans2<span class="token punctuation">)</span> 	    objList<span class="token punctuation">.</span>jsonbeans2<span class="token operator">=</span> jsonbeans2<span class="token punctuation">;</span>  	$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{<!-- --></span> 	        type<span class="token operator">:</span><span class="token string">'post'</span><span class="token punctuation">,</span> 	        dataType<span class="token operator">:</span> <span class="token string">"json"</span><span class="token punctuation">,</span> 	        contentType<span class="token operator">:</span> <span class="token string">"application/json; charset=utf-8"</span><span class="token punctuation">,</span> 	        url <span class="token operator">:</span> <span class="token string">'你的url'</span><span class="token punctuation">,</span> 	        data <span class="token operator">:</span> JSON<span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>objList<span class="token punctuation">)</span><span class="token punctuation">,</span>  	        success <span class="token operator">:</span> <span class="token function">function</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">{<!-- --></span> 	        <span class="token punctuation">}</span><span class="token punctuation">,</span> 	        error <span class="token operator">:</span> <span class="token function">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{<!-- --></span> 	            <span class="token function">layeropen</span><span class="token punctuation">(</span><span class="token string">'2'</span><span class="token punctuation">,</span><span class="token string">'发生意外错误!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 	        <span class="token punctuation">}</span> 	    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> </code></pre> <pre><code class="prism language-java">用到的实体类 	 <span class="token comment">/**  * JSON转换实体类  *   * @author XNYLH  *  */</span> <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">bean_list</span> <span class="token punctuation">{<!-- --></span> 	<span class="token keyword">private</span> String flowid<span class="token punctuation">;</span> 	<span class="token keyword">private</span> String id<span class="token punctuation">;</span> 	<span class="token keyword">private</span> String roleid<span class="token punctuation">;</span> 	<span class="token keyword">private</span> String agent<span class="token punctuation">;</span> 	<span class="token keyword">private</span> String stepid<span class="token punctuation">;</span> 	<span class="token keyword">private</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans<span class="token punctuation">;</span>  	<span class="token keyword">private</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans2<span class="token punctuation">;</span>  	<span class="token keyword">private</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans3<span class="token punctuation">;</span>  	<span class="token keyword">public</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> <span class="token function">getJsonbeans</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> jsonbeans<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setJsonbeans</span><span class="token punctuation">(</span>List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>jsonbeans <span class="token operator">=</span> jsonbeans<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> String <span class="token function">getFlowid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> flowid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setFlowid</span><span class="token punctuation">(</span>String flowid<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>flowid <span class="token operator">=</span> flowid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> String <span class="token function">getId</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> id<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setId</span><span class="token punctuation">(</span>String id<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> String <span class="token function">getRoleid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> roleid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setRoleid</span><span class="token punctuation">(</span>String roleid<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>roleid <span class="token operator">=</span> roleid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> String <span class="token function">getAgent</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> agent<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setAgent</span><span class="token punctuation">(</span>String agent<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>agent <span class="token operator">=</span> agent<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> String <span class="token function">getStepid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> stepid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setStepid</span><span class="token punctuation">(</span>String stepid<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>stepid <span class="token operator">=</span> stepid<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> <span class="token function">getJsonbeans2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> jsonbeans2<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setJsonbeans2</span><span class="token punctuation">(</span>List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans2<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>jsonbeans2 <span class="token operator">=</span> jsonbeans2<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> <span class="token function">getJsonbeans3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> jsonbeans3<span class="token punctuation">;</span> 	<span class="token punctuation">}</span>  	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setJsonbeans3</span><span class="token punctuation">(</span>List<span class="token generics function"><span class="token punctuation">&lt;</span>jsonbean<span class="token punctuation">&gt;</span></span> jsonbeans3<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>jsonbeans3 <span class="token operator">=</span> jsonbeans3<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> <span class="token punctuation">}</span> </code></pre> <pre><code class="prism language-java">用到的实体类 	 <span class="token comment">/**  * JSON转换实体类  *   * @author XNYLH  *  */</span> <span class="token comment">/**  * JSON转换实体类  * @author XNYLH  *  */</span> <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">jsonbean</span> <span class="token punctuation">{<!-- --></span> 	<span class="token keyword">private</span> String id<span class="token punctuation">;</span> 	<span class="token keyword">private</span> String name<span class="token punctuation">;</span>     <span class="token keyword">private</span> String value<span class="token punctuation">;</span>     <span class="token keyword">private</span> String <span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">;</span>      	<span class="token keyword">public</span> String<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getArray</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> array<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setArray</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>array <span class="token operator">=</span> array<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> String <span class="token function">getId</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> id<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setId</span><span class="token punctuation">(</span>String id<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>id <span class="token operator">=</span> id<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> String <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> name<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setName</span><span class="token punctuation">(</span>String name<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> String <span class="token function">getValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> value<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setValue</span><span class="token punctuation">(</span>String value<span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">this</span><span class="token punctuation">.</span>value <span class="token operator">=</span> value<span class="token punctuation">;</span> 	<span class="token punctuation">}</span> 	<span class="token annotation punctuation">@Override</span> 	<span class="token keyword">public</span> String <span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{<!-- --></span> 		<span class="token keyword">return</span> <span class="token string">"jsonbean [id="</span> <span class="token operator">+</span> id <span class="token operator">+</span> <span class="token string">", name="</span> <span class="token operator">+</span> name <span class="token operator">+</span> <span class="token string">", value="</span> <span class="token operator">+</span> value <span class="token operator">+</span> <span class="token string">"]"</span><span class="token punctuation">;</span> 	<span class="token punctuation">}</span>      <span class="token punctuation">}</span> </code></pre> <h2> <a id="_189" rel="nofollow"></a>数据格式</h2> <p><img decoding="async" src="http://img.555519.xyz/uploads/20230118/450b05ea6974bca8f12617d256f3a04f.jpg" alt="@RequestBody 接收复杂实体类集合"></p> </p></div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-19871.htm">太阳宫附近有什么好吃的（太阳宫附近游玩）</a></p>
+                                        <p>下一个：<a href="/news/article-20329.htm">MySQL高级 之 explain执行计划详解（*）</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/free-nodes/2024-11-18-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新18M/S免费节点订阅链接">Clash-S节点订阅每天更新18M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-20329.htm" title="MySQL高级 之 explain执行计划详解（*）">MySQL高级 之 explain执行计划详解（*）</a></li>
+                        <li class="py-2"><a href="/news/article-22152.htm" title="宠物狗市场价格表（宠物狗市场视频）">宠物狗市场价格表（宠物狗市场视频）</a></li>
+                        <li class="py-2"><a href="/news/article-31015.htm" title="邮寄宠物猫怎么收费（邮寄猫猫）">邮寄宠物猫怎么收费（邮寄猫猫）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-4-node-share-links.htm" title="Clash-S节点订阅每天更新18M/S免费节点订阅链接">Clash-S节点订阅每天更新18M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-30533.htm" title="宠物猫接种疫苗多少钱（宠物猫疫苗针多少钱）">宠物猫接种疫苗多少钱（宠物猫疫苗针多少钱）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-6-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新19.4M/S免费节点订阅链接">Clash-S节点订阅每天更新19.4M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-16-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新21M/S免费节点订阅链接">Clash-S节点订阅每天更新21M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-22-node-share.htm" title="Clash-S节点订阅每天更新19.6M/S免费节点订阅链接">Clash-S节点订阅每天更新19.6M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-29105.htm" title="mysql 窗口函数">mysql 窗口函数</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-21756.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案</title>
+        <meta name="description" content="SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案  问题描述   解决方法1 解决方法2   一点小细节和拓展    最近在做一个SpringBoot项目，数据库" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> <div class="toc"> <h3>SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案</h3> <ul> <li><a href="#_2" rel="nofollow">问题描述</a></li> <li> <ul> <li><a href="#1_8" rel="nofollow">解决方法1</a></li> <li><a href="#2_18" rel="nofollow">解决方法2</a></li> </ul> </li> <li><a href="#_25" rel="nofollow">一点小细节和拓展</a></li> </ul> </div> </h1> <p>最近在做一个SpringBoot项目，数据库使用的是MySQL 5.7，在传递日期时间数据时出现了异常，数据库中的日期显示格式为"yy-mm-dd hh:mm:ss"，而传到前端显示的则是一长串数字，即时间戳(即从1970年1月1日00:00:00 GMT标准基准时间到当前时间经过的毫秒数)<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220607/d52482cba8fcef6005f29923f552a279.jpg" alt="SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案"></p> <h2><a id="1_8" rel="nofollow"></a>解决方法1</h2> <p>java有两种Date类型，一种是import java.util.Date，另一种是import java.sql.Date，把util类型的Date转换为sql的Date就行了。代码如下：</p> <pre><code>    java.util.Date utilDate = user.getDate();     java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());     user.setDate(sqlDate);</code></pre> <p>因为是User类中定义的是util的Date，所以会把数据库中sql的Date变成时间戳<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220607/ae29f30603bb3dd21c51756359d27a42.jpg" alt="SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案"></p> <h2><a id="2_18" rel="nofollow"></a>解决方法2</h2> <p>查看出现错误的时间日期所在的定义类，不出意外的话它调用的是import java.util.Date，把util改成sql就完事了<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220607/7154381622d4b7bf3afbf27a57baf191.jpg" alt="SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案"><br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220607/3943cc3f3e4c8a8abfaf72e8e5d6ce3e.jpg" alt="SpringBoot获取数据库datetime类型数据在前端显示为时间戳问题及解决方案"></p> </h1> <p><strong>如果使用util转sql的Date，需要保证只有年月日，时间的时分秒必须为零，否则无法转换</strong></p> <p>所以这个问题的根本原因是什么呢？</p> <p><strong>我个人猜测应该是Generator生成逆向工程时类中默认生成的就是java.util.Date，导致出现时间戳问题</strong></p> <p>ok，就这样，最近也在忙着找工作，愈发感觉到人的记忆力确实不如烂笔头，写博客记录是一个非常好的习惯，希望可以保持下去吧。</p> </div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-21755.htm">关于Postman调试@RequestBody入参模式接口的用例说明</a></p>
+                                        <p>下一个：<a href="/news/article-22150.htm">宠物猫疫苗费用多少（宠物猫疫苗费用多少钱）</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-23077.htm" title="判断数A中是否存在一棵同构于B的子树">判断数A中是否存在一棵同构于B的子树</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-14-node-share-links.htm" title="Clash-S节点订阅每天更新21.9M/S免费节点订阅链接">Clash-S节点订阅每天更新21.9M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-19870.htm" title="python 查看包的版本">python 查看包的版本</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-25-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新22.9M/S免费节点订阅链接">Clash-S节点订阅每天更新22.9M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-8-node-share-links.htm" title="Clash-S节点订阅每天更新21.8M/S免费节点订阅链接">Clash-S节点订阅每天更新21.8M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-33365.htm" title="附近宠物狗粮店在哪里（附近哪里有狗粮）">附近宠物狗粮店在哪里（附近哪里有狗粮）</a></li>
+                        <li class="py-2"><a href="/news/article-24928.htm" title="新疆宠物救助电话（新疆流浪动物救助站）">新疆宠物救助电话（新疆流浪动物救助站）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-19-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新21.4M/S免费节点订阅链接">Clash-S节点订阅每天更新21.4M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-6-node-share-links.htm" title="Clash-S节点订阅每天更新21.7M/S免费节点订阅链接">Clash-S节点订阅每天更新21.7M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-17-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新19.7M/S免费节点订阅链接">Clash-S节点订阅每天更新19.7M/S免费节点订阅链接</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>

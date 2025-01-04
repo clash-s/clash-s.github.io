@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-29105.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>mysql 窗口函数</title>
+        <meta name="description" content="说明：    序号 Name Description     1 CUME_DIST() 累积分布值   2 DENSE_RANK() 当前行在其分区内的秩，没有间隙   3 FIRST_VALUE(" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>mysql 窗口函数</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="content_views" class="markdown_views prism-kimbie-light"> <h3> <a id="_0" rel="nofollow"></a>说明：</h3> <table> <thead> <tr> <th>序号</th> <th>Name</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>CUME_DIST()</td> <td>累积分布值</td> </tr> <tr> <td>2</td> <td>DENSE_RANK()</td> <td>当前行在其分区内的秩，没有间隙</td> </tr> <tr> <td>3</td> <td>FIRST_VALUE()</td> <td>来自窗框第一行的参数值</td> </tr> <tr> <td>4</td> <td>LAG()</td> <td>来自分区内当前行的参数值</td> </tr> <tr> <td>5</td> <td>LAST_VALUE()</td> <td>窗框最后一行的参数值</td> </tr> <tr> <td>6</td> <td>LEAD()</td> <td>分区内当前行前导行的参数值</td> </tr> <tr> <td>7</td> <td>NTH_VALUE()</td> <td>窗框第N行参数值</td> </tr> <tr> <td>8</td> <td>NTILE()</td> <td>当前行在其分区内的Bucket编号。</td> </tr> <tr> <td>9</td> <td>PERCENT_RANK()</td> <td>百分比秩值</td> </tr> <tr> <td>10</td> <td>RANK()</td> <td>当前行在其分区内的秩，带间隙</td> </tr> <tr> <td>11</td> <td>ROW_NUMBER()</td> <td>其分区中当前行的数量</td> </tr> </tbody> </table> <h3> <a id="_14" rel="nofollow"></a>概述</h3> <h4> <a id="1CUME_DIST_15" rel="nofollow"></a>1、CUME_DIST()</h4> <p><font color="#999AAA">CUME_DIST()是一个窗口函数，它返回一组值中值的累积分布。它表示值小于或等于行的值除以总行数的行数。CUME_DIST()函数的返回值大于零且小于或等于1（0 CUME_DIST()&lt;&lt; = 1）。重复的列值接收相同的CUME_DIST()值。</font></p> <pre><code class="prism language-bash">CUME_DIST<span class="token punctuation">(</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>  PARTITION BY expr, <span class="token punctuation">..</span>.  ORDER BY <span class="token function">expr</span> <span class="token punctuation">[</span>ASC <span class="token operator">|</span> DESC<span class="token punctuation">]</span>, <span class="token punctuation">..</span>. <span class="token punctuation">)</span>  </code></pre> <h4> <a id="2DENSE_RANK_23" rel="nofollow"></a>2、DENSE_RANK()</h4> <p><font color="#999AAA">DENSE_RANK()是一个窗口函数，它为分区或结果集中的每一行分配排名，而排名值没有间隙。行的等级从行前的不同等级值的数量增加1。</font></p> <pre><code class="prism language-bash">DENSE_RANK<span class="token punctuation">(</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     PARTITION BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span>     ORDER BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>, <span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="3FIRST_VALUE_35" rel="nofollow"></a>3、FIRST_VALUE()</h4> <p><font color="#999AAA"> FIRST_VALUE()是一个窗口函数，允许您选择窗口框架，分区或结果集的第一行。</font></p> <pre><code class="prism language-bash">FIRST_VALUE<span class="token punctuation">(</span>expression<span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>         <span class="token punctuation">[</span>partition_clause<span class="token punctuation">]</span>         <span class="token punctuation">[</span>order_clause<span class="token punctuation">]</span>         <span class="token punctuation">[</span>frame_clause<span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="4LAG_45" rel="nofollow"></a>4、LAG()</h4> <p><font color="#999AAA"> LAG()函数是一个窗口函数，允许您回顾多行并从当前行访问行的数据。</font></p> <pre><code class="prism language-bash">LAG<span class="token punctuation">(</span><span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span>,offset<span class="token punctuation">[</span>, default_value<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     PARTITION BY expr,<span class="token punctuation">..</span>.     ORDER BY <span class="token function">expr</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>,<span class="token punctuation">..</span>. <span class="token punctuation">)</span>  </code></pre> <h4> <a id="5LAST_VALUE_54" rel="nofollow"></a>5、LAST_VALUE()</h4> <p><font color="#999AAA"> LAST_VALUE()函数是一个窗口函数，允许您选择有序行集中的最后一行。</font></p> <pre><code class="prism language-bash">LAST_VALUE <span class="token punctuation">(</span>expression<span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     <span class="token punctuation">[</span>partition_clause<span class="token punctuation">]</span>     <span class="token punctuation">[</span>order_clause<span class="token punctuation">]</span>     <span class="token punctuation">[</span>frame_clause<span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="6LEAD_65" rel="nofollow"></a>6、LEAD()</h4> <p><font color="#999AAA"> 函数是一个窗口函数，允许您向前看多行并从当前行访问行的数据。与LAG()函数类似，LEAD()函数对于计算同一结果集中当前行和后续行之间的差异非常有用。</font></p> <pre><code class="prism language-bash">LEAD<span class="token punctuation">(</span><span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span>,offset<span class="token punctuation">[</span>, default_value<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     PARTITION BY <span class="token punctuation">(</span>expr<span class="token punctuation">)</span>     ORDER BY <span class="token punctuation">(</span>expr<span class="token punctuation">)</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="7NTH_VALUE_75" rel="nofollow"></a>7、NTH_VALUE()</h4> <p><font color="#999AAA"> 这NTH_VALUE()是一个窗口函数，允许您从有序行集中的第N行获取值。</font></p> <pre><code class="prism language-bash"> NTH_VALUE<span class="token punctuation">(</span>expression, N<span class="token punctuation">)</span> FROM FIRST OVER <span class="token punctuation">(</span>     partition_clause     order_clause     frame_clause <span class="token punctuation">)</span>  </code></pre> <h4> <a id="8NTILE_88" rel="nofollow"></a>8、NTILE()</h4> <p><font color="#999AAA"> MySQL NTILE()函数将排序分区中的行划分为特定数量的组。从每个组分配一个从一开始的桶号。对于每一行，NTILE()函数返回一个桶号，表示行所属的组。</font></p> <pre><code class="prism language-bash">NTILE<span class="token punctuation">(</span>n<span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     PARTITION BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span>     ORDER BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>, <span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="9PERCENT_RANK_98" rel="nofollow"></a>9、PERCENT_RANK()</h4> <p><font color="#999AAA"> 这PERCENT_RANK()是一个窗口函数，用于计算分区或结果集中行的百分位数。</font></p> <pre><code class="prism language-bash">PERCENT_RANK<span class="token punctuation">(</span><span class="token punctuation">)</span>     OVER <span class="token punctuation">(</span>         PARTITION BY expr,<span class="token punctuation">..</span>.         ORDER BY <span class="token function">expr</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>,<span class="token punctuation">..</span>.     <span class="token punctuation">)</span> </code></pre> <h4> <a id="10RANK_109" rel="nofollow"></a>10、RANK()</h4> <p><font color="#999AAA"> RANK()函数为结果集的分区中的每一行分配一个排名。行的等级由一加上前面的等级数指定。</font></p> <pre><code class="prism language-bash">RANK<span class="token punctuation">(</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>     PARTITION BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span>     ORDER BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>, <span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> <h4> <a id="11ROW_NUMBER_119" rel="nofollow"></a>11、ROW_NUMBER()</h4> <p><font color="#999AAA"> 这ROW_NUMBER()是一个窗口函数或分析函数，它为从1开始应用的每一行分配一个序号。<strong>(适用于排序和分组排序)</strong></font></p> <pre><code class="prism language-bash">ROW_NUMBER<span class="token punctuation">(</span><span class="token punctuation">)</span> OVER <span class="token punctuation">(</span>   	PARTITION BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span>	     ORDER BY <span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span> <span class="token punctuation">[</span>ASC<span class="token operator">|</span>DESC<span class="token punctuation">]</span>, <span class="token punctuation">[</span><span class="token punctuation">{<!-- --></span>,<span class="token operator">&lt;</span>expression<span class="token operator">&gt;</span><span class="token punctuation">..</span>.<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">)</span>  </code></pre> </p></div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-28638.htm">济南宠物狗免费赠送活动（济南宠物狗免费赠送活动是真的吗）</a></p>
+                                        <p>下一个：<a href="/news/article-29108.htm">家庭小型狗粮加工机器（狗粮加工机械）</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-27250.htm" title="写给老婆的保证书挽回离婚（写给老婆的保证书挽回离婚模板）">写给老婆的保证书挽回离婚（写给老婆的保证书挽回离婚模板）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-19-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新21.4M/S免费节点订阅链接">Clash-S节点订阅每天更新21.4M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-23077.htm" title="判断数A中是否存在一棵同构于B的子树">判断数A中是否存在一棵同构于B的子树</a></li>
+                        <li class="py-2"><a href="/news/article-21755.htm" title="关于Postman调试@RequestBody入参模式接口的用例说明">关于Postman调试@RequestBody入参模式接口的用例说明</a></li>
+                        <li class="py-2"><a href="/news/article-20787.htm" title="合肥宠物救助中心电话（合肥宠物救助中心电话多少）">合肥宠物救助中心电话（合肥宠物救助中心电话多少）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-21-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新19.1M/S免费节点订阅链接">Clash-S节点订阅每天更新19.1M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-19871.htm" title="太阳宫附近有什么好吃的（太阳宫附近游玩）">太阳宫附近有什么好吃的（太阳宫附近游玩）</a></li>
+                        <li class="py-2"><a href="/news/article-32428.htm" title="宠物猫驱虫多少钱一次一 宠物猫驱虫多少钱一次?">宠物猫驱虫多少钱一次一 宠物猫驱虫多少钱一次?</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-13-node-share-links.htm" title="Clash-S节点订阅每天更新19.4M/S免费节点订阅链接">Clash-S节点订阅每天更新19.4M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-7-free-node-subscribe-links.htm" title="Clash-S节点订阅每天更新20M/S免费节点订阅链接">Clash-S节点订阅每天更新20M/S免费节点订阅链接</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>

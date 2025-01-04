@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-32916.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SpringBoot教程SpringBoot统一结果封装</title>
+        <meta name="description" content="经过了前面几篇文章，SpringBoot中MVC相关的配置其实都已经差不多了，接下来就可以完全进入接口开发阶段了。前面我们写过几个接口，虽然都加了@RestController注解，相当于统一了我们的" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>SpringBoot教程SpringBoot统一结果封装</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="content_views" class="htmledit_views"> <p>经过了前面几篇文章，SpringBoot中MVC相关的配置其实都已经差不多了，接下来就可以完全进入接口开发阶段了。前面我们写过几个接口，虽然都加了@RestController注解，相当于统一了我们的返回数据的基本形式为JSON，但是由于我们的项目可能是很多人一起开发，所以我们最好能够把我们的返回结果统一一下，让大家都返回一样的数据格式，这样即规范了代码，也方便了前端人员的调用，不然每个人都按照每个人的风格去写，代码会变得非常混乱。</p> <p>那我我们怎么还封装这个结果呢，那就要关注我们返回给前端的数据都要包含哪些信息。</p> <p>一般来讲，首先要有一个code, 用来代表我们这次接口的一个状态，比如 0代表成功，1代表失败，2代表必传参数不对， 4代表系统异常等等。这只是个简单的举例。可能很多人会有疑问，Http协议本身不是已经有了相应的返回码的定义了么，比如200代表成功， 500代表服务器错误，404代表找不到页面，为啥咱们还要在定义呢，这就是划分粒度的问题了，就那200来说，它代表是这次请求成功了，但是它描述不了这次请求中的业务结果，比如用户名已存在，其实业务上就不是一种成功，但http的结果肯定是200，所以我们需要一种描述我们业务状态的编码。</p> <p>除了编码之外，还有要一些提示信息，比如，操作成功，系统异常，用户名已存在等，所以我们再加一个messge字段。</p> <p>还有什么呢，还有我们的核心数据，比如我根据id获取数据，那个这个数据的具体内容，我们肯定是必须要返回给前端呢，所以还要 有个data， 那这个data 用什么类型呢，这个类型肯定是五花八门，所以我们要用一个统一的父类，Object才可以接收所有类型，当然为了便于操作我们可以采用泛型的方式。</p> <p>通过上面的分析，我们的这个类基本上就已经可以设计出来了。</p> <pre><code class="language-java">public class Result&lt;T&gt; implements Serializable {    private static final long serialVersionUID = -3960261604605958516L;      private int code;   private String msg;   private T data;      // get set方法，限于篇幅问题，这里不写了，大家操作的时候自己生成一下。或者使用lombok   public static &lt;T&gt; Result&lt;T&gt; success() {         return new Result&lt;&gt;();     }      /**      * 成功,默认状态码,返回消息,自定义返回数据      *      * @param data 自定义返回数据      * @param &lt;T&gt;  返回类泛型,不能为String      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; success(T data) {         return new Result&lt;&gt;(data);     }      /**      * 成功,默认状态码,自定义返回消息,无返回数据      *      * @param msg 自定义返回消息      * @param &lt;T&gt; 返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; success(String msg) {         return new Result&lt;&gt;(msg);     }      /**      * 成功,默认状态码,自定义返回消息,返回数据      *      * @param msg  自定义返回消息      * @param data 自定义返回数据      * @param &lt;T&gt;  返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; success(String msg, T data) {         return new Result&lt;&gt;(msg, data);     }      /**      * 失败,默认状态码,返回消息,无返回数据      *      * @param &lt;T&gt; 返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; error() {         return new Result&lt;&gt;(ResultCode.ERROR);     }      /**      * 失败,默认状态码,自定义返回消息,无返回数据      *      * @param &lt;T&gt; 返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; error(String msg) {         return new Result&lt;&gt;(ResultCode.ERROR.getCode(), msg);     }      /**      * 失败,自定义状态码,返回消息,无返回数据      *      * @param code 自定义状态码      * @param msg  自定义返回消息      * @param &lt;T&gt;  返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; error(int code, String msg) {         return new Result&lt;&gt;(code, msg);     }      /**      * 失败,使用CodeMsg状态码,返回消息,无返回数据      *      * @param resultCode CodeMsg,参数如下:      *                   &lt;p&gt; code 状态码      *                   &lt;p&gt; msg  返回消息      * @param &lt;T&gt;        返回类泛型      * @return 通用返回Result      */     public static &lt;T&gt; Result&lt;T&gt; error(ResultCode resultCode) {         return new Result&lt;&gt;(resultCode);     }      /**      * 成功构造器,无返回数据      */     private Result() {         this(ResultCode.SUCCESS);     }      /**      * 成功构造器,自定义返回数据      *      * @param data 返回数据      */     private Result(T data) {         this(ResultCode.SUCCESS, data);     }      /**      * 成功构造器,自定义返回消息,无返回数据      *      * @param msg 返回消息      */     private Result(String msg) {         this(ResultCode.SUCCESS.getCode(), msg);     }      /**      * 成功构造器,自定义返回信息,返回数据      *      * @param msg  返回信息      * @param data 返回数据      */     private Result(String msg, T data) {         this(ResultCode.SUCCESS.getCode(), msg, data);     }      /**      * 构造器,自定义状态码,返回消息      *      * @param code 状态码      * @param msg  返回消息      */     private Result(int code, String msg) {         this.code = code;         this.msg = msg;     }      /**      * 构造器,自定义状态码,返回消息,返回数据      *      * @param code 状态码      * @param msg  返回消息      * @param data 返回数据      */     private Result(int code, String msg, T data) {         this(code, msg);         this.data = data;     }      /**      * 构造器,使用CodeMsg状态码与返回信息      *      * @param resultCode CodeMsg,参数如下:      *                   &lt;p&gt; code 状态码      *                   &lt;p&gt; msg  返回消息      */     private Result(ResultCode resultCode) {         this(resultCode.getCode(), resultCode.getMsg());     }      /**      * 构造器,使用CodeMsg状态码与返回信息,自定义返回数据      *      * @param resultCode CodeMsg,参数如下:      *                   &lt;p&gt; code 状态码      *                   &lt;p&gt; msg  返回消息      * @param data       返回数据      */     private Result(ResultCode resultCode, T data) {         this(resultCode);         this.data = data;     }   } 复制代码</code></pre> <p>在定义几个常见的错误：这里为了不写那么多的get，set,我们引入了lombok</p> <pre><code class="language-java">@Data @Builder public class ResultCode implements Serializable {      private static final long serialVersionUID = -6269841958947880397L;      /**      * 状态码      */     private int code;      /**      * 状态信息      */     private String msg;      /**      * 默认成功      */     public final static ResultCode SUCCESS = dispose(ResultCodeEnum.SUCCESS);     /**      * 默认失败      */     public final static ResultCode ERROR = dispose(ResultCodeEnum.ERROR);     /**      * 通用业务异常      */     public final static ResultCode BIZ_ERROR = dispose(ResultCodeEnum.BIZ_ERROR);     /**      * 文件超出最大限制      */     public final static ResultCode FILE_OUT_MAX = dispose(ResultCodeEnum.FILE_OUT_MAX);     /**      * 文件格式不正确      */     public final static ResultCode FILE_FORMAT_ERROR = dispose(ResultCodeEnum.FILE_FORMAT_ERROR);     /**      * 参数错误      */     public final static ResultCode PARAM_ERROR = dispose(ResultCodeEnum.PARAM_ERROR);     /**      * Json解析异常      */     public final static ResultCode JSON_FORMAT_ERROR = dispose(ResultCodeEnum.JSON_FORMAT_ERROR);     /**      * Sql解析异常      */     public final static ResultCode SQL_ERROR = dispose(ResultCodeEnum.SQL_ERROR);     /**      * 网络超时      */     public final static ResultCode NETWORK_TIMEOUT = dispose(ResultCodeEnum.NETWORK_TIMEOUT);     /**      * 未知的接口      */     public final static ResultCode UNKNOWN_INTERFACE = dispose(ResultCodeEnum.UNKNOWN_INTERFACE);     /**      * 请求方式不支持      */     public final static ResultCode REQ_MODE_NOT_SUPPORTED = dispose(ResultCodeEnum.REQ_MODE_NOT_SUPPORTED);     /**      * 系统异常      */     public final static ResultCode SYS_ERROR = dispose(ResultCodeEnum.SYS_ERROR);      private static ResultCode dispose(ResultCodeEnum codeEnum) {         return ResultCode.builder().code(codeEnum.getCode()).msg(codeEnum.getMsg()).build();     }      public ResultCode(int code, String msg) {         this.code = code;         this.msg = msg;     } } 复制代码</code></pre> <pre><code class="language-java">public enum ResultCodeEnum {      SUCCESS(0, "操作成功"),     ERROR(1, "操作失败"),     BIZ_ERROR(1000, "通用业务异常"),     FILE_OUT_MAX(9000, "文件超出最大限制"),     FILE_FORMAT_ERROR(9001, "文件格式不正确"),     PARAM_ERROR(9050, "参数错误"),     JSON_FORMAT_ERROR(9051, "Json解析异常"),     SQL_ERROR(9052, "Sql解析异常"),     NETWORK_TIMEOUT(9510, "网络超时"),     UNKNOWN_INTERFACE(9520, "未知的接口"),     REQ_MODE_NOT_SUPPORTED(9530, "请求方式不支持"),     SYS_ERROR(9999, "系统异常");      /**      * 状态码      */     private final int code;      /**      * 状态信息      */     private final String msg;      public int getCode() {         return code;     }      public String getMsg() {         return msg;     }      ResultCodeEnum(int code, String msg) {         this.code = code;         this.msg = msg;     } } 复制代码</code></pre> <p>这个写完了以后，就可以统一我们的返回结果，以后所有的Controller就都要返回Result类型。比如：</p> <pre><code class="language-java">@GetMapping("/withinRangeResource")     public Result&lt;List&lt;EmergencyExpertResVO&gt;&gt; withinRangeResource(@Valid ResourceRangeReqVO param) {         List&lt;EmergencyExpertResVO&gt; expertResVOS = emergencyExpertBiz.getWithinRangeResource(param);         return Result.success(expertResVOS);     } 复制代码</code></pre> <p>另： 配套项目代码已托管中gitCode:<a href="http://www.m6000.cn/wp-content/themes/begin%20lts/inc/go.php?url=https://gitcode.net/lsqingfeng/springboot-learning"  title="一缕82年的清风 / springboot-learning ·  GitCode" rel="nofollow">一缕82年的清风 / springboot-learning · GitCode</a></p> <p>所有文章也会在微信公众号首发更新，欢迎关注： 一缕82年的清风</p> </div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-32428.htm">宠物猫驱虫多少钱一次一 宠物猫驱虫多少钱一次?</a></p>
+                                        <p>下一个：<a href="/news/article-32917.htm">使用 LOAD DATA LOCAL INFILE，sysbench 导数速度提升30%</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-33865.htm" title="Python os.path常用操作">Python os.path常用操作</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-16-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新21M/S免费节点订阅链接">Clash-S节点订阅每天更新21M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-30533.htm" title="宠物猫接种疫苗多少钱（宠物猫疫苗针多少钱）">宠物猫接种疫苗多少钱（宠物猫疫苗针多少钱）</a></li>
+                        <li class="py-2"><a href="/news/article-28182.htm" title="PDB调试方法">PDB调试方法</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-9-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新20.8M/S免费节点订阅链接">Clash-S节点订阅每天更新20.8M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-20787.htm" title="合肥宠物救助中心电话（合肥宠物救助中心电话多少）">合肥宠物救助中心电话（合肥宠物救助中心电话多少）</a></li>
+                        <li class="py-2"><a href="/news/article-19409.htm" title="襄阳流浪狗领养地址（襄阳流浪狗收容站电话号码是多少）">襄阳流浪狗领养地址（襄阳流浪狗收容站电话号码是多少）</a></li>
+                        <li class="py-2"><a href="/news/article-21243.htm" title="你不知道的Python容器">你不知道的Python容器</a></li>
+                        <li class="py-2"><a href="/news/article-19408.htm" title="妙三多是几联（妙三多是几联疫苗）">妙三多是几联（妙三多是几联疫苗）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-5-node-share.htm" title="Clash-S节点订阅每天更新22.2M/S免费节点订阅链接">Clash-S节点订阅每天更新22.2M/S免费节点订阅链接</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>

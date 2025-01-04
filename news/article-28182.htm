@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-28182.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PDB调试方法</title>
+        <meta name="description" content="本文目录  PDB调试     两种方式调试 具体操作        笔者的项目涉及了大量的环境、shell脚本等，用IDE调试非常麻烦，因此学着使用PDB调试，记录分享给大家。 pdb调试是为了在远" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>PDB调试方法</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> <div class="toc"> <h3>本文目录</h3> <ul> <li><a href="#PDB_1" rel="nofollow">PDB调试</a></li> <li> <ul> <li> <ul> <li><a href="#_8" rel="nofollow">两种方式调试</a></li> <li><a href="#_19" rel="nofollow">具体操作</a></li> </ul> </li> </ul> </li> </ul> </div> </h1> <p>笔者的项目涉及了大量的环境、shell脚本等，用IDE调试非常麻烦，因此学着使用PDB调试，记录分享给大家。</p> <p>pdb调试是为了在远程服务器上，无界面的模式下，进行的。<br /> 由于工业界的正版IDE很贵，当然也可以使用VSCODE进行调试。</p> <blockquote> <p>大佬的话：最好的调试方法是打印.</p> </blockquote> <h3> <a id="_8" rel="nofollow"></a>两种方式调试</h3> <ol> <li>非侵入式方法<br /><code>python3 -m pdb filename.py</code> 如果还有后续的参数，直接加在它后面。</li> </ol> <p>如果是要调试Pytorch的神经网络，如下命令：<br /><code>torchrun -m pdb filename.py</code> : <strong>注意调试的时候使用一个GPU， 一个线程来调试最好。</strong></p> <ol start="2"> <li>侵入式方法（<strong>推荐这个</strong>）<br /> 需要在运行的文件中增加一行<br /><code>import pdb;pdb.set_trace()</code> </li> </ol> <h3> <a id="_19" rel="nofollow"></a>具体操作</h3> <ul> <li> <p>查看源代码：<code>l</code> 查看当前位置前后11行。<br /><code>ll</code>,查看当前函数的所有代码</p> </li> <li> <p>添加断点：</p> </li> </ul> <pre><code>b               # 单独使用可以用来显示目前已经具有的所有断点 b lineno        # 给第几行添加断点 b filename:lineno        # 给某个函数的第几行添加断点 b functionname    # 给某个函数添加断点 </code></pre> <ul> <li>添加临时断点</li> </ul> <pre><code>tbreak tbreak lineno tbreak filename:lineno tbreak functionname </code></pre> <ul> <li>清除断点</li> </ul> <pre><code>cl             						# 清楚所有断点 cl filename:lineno  cl bpnumber [bpnumber ...] </code></pre> <ul> <li>打印变量值</li> </ul> <pre><code>p expression  p param # 如果变量是个复杂的对象，可以先打印查看变量的属性。 p dir(param) # 然后查看变量的某个属性值  p param.xxx　　 </code></pre> <ul> <li>逐行调试命令</li> </ul> <pre><code>s          # 执行下一行，能够进入函数体 n          # 执行下一行，不进入函数体 r          # 执行下一行，如果在函数中，直接运行到函数返回处   c          # 持续执行程序，直到遇到一个断点 unt lineno  # 持续执行直到运行到指定行 j lineno     # 直接跳转到指定行  </code></pre> <ul> <li>查看函数参数</li> </ul> <pre><code>a         # 在函数中时打印函数的参数和参数的值 </code></pre> <ul> <li>打印变量类型</li> </ul> <pre><code>whatis expression             # 打印表达式类型，也可以用来打印变量值 </code></pre> <ul> <li>启动交互式解释器</li> </ul> <pre><code>interact               # 启动一个python的交互式解释器，使用(ctrl + d)返回pdb </code></pre> <ul> <li>打印堆栈信息</li> </ul> <pre><code>w                      # 打印堆栈信息，最新的帧在最底部 </code></pre> <ul> <li>忽略某段代码<br /> 直接跳转到line_number开始</li> </ul> <pre><code>j line_number </code></pre> <ul> <li>退出pdb</li> </ul> <pre><code>q </code></pre> <p>注意，这里的退出pdb是退出了整个debugger系统。<br /> 如果要重新开始下一次调试：(即保留断点设置和debugger设置)</p> <pre><code>restart </code></pre> </p></div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-28181.htm">PHP字符串运算符详解</a></p>
+                                        <p>下一个：<a href="/news/article-28637.htm">使用 docker-compose 部署 golang 的 Athens 私有代理</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-26338.htm" title="昆明宠物门诊（昆明宠物医生）">昆明宠物门诊（昆明宠物医生）</a></li>
+                        <li class="py-2"><a href="/news/article-20786.htm" title="你的编程能力从什么时候开始突飞猛进? 我的回答：2013年，我开始喜欢编程了。">你的编程能力从什么时候开始突飞猛进? 我的回答：2013年，我开始喜欢编程了。</a></li>
+                        <li class="py-2"><a href="/news/article-23520.htm" title="宠物粮食龙头 宠物粮食龙头股">宠物粮食龙头 宠物粮食龙头股</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-19-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新21.9M/S免费节点订阅链接">Clash-S节点订阅每天更新21.9M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-31017.htm" title="宠物店一般去哪进货宠物（宠物店一般去哪进货宠物好）">宠物店一般去哪进货宠物（宠物店一般去哪进货宠物好）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-15-free-subscribe-node.htm" title="Clash-S节点订阅每天更新22.4M/S免费节点订阅链接">Clash-S节点订阅每天更新22.4M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-20328.htm" title="@RequestBody 接收复杂实体类集合">@RequestBody 接收复杂实体类集合</a></li>
+                        <li class="py-2"><a href="/news/article-33364.htm" title="天照宠物医院大兴店营业时间（天照宠物医院大兴店营业时间查询）">天照宠物医院大兴店营业时间（天照宠物医院大兴店营业时间查询）</a></li>
+                        <li class="py-2"><a href="/news/article-18942.htm" title="丹阳有宠物收留中心吗（丹阳哪里有宠物店）">丹阳有宠物收留中心吗（丹阳哪里有宠物店）</a></li>
+                        <li class="py-2"><a href="/news/article-19871.htm" title="太阳宫附近有什么好吃的（太阳宫附近游玩）">太阳宫附近有什么好吃的（太阳宫附近游玩）</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>

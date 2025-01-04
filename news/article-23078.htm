@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://clash-s.github.io/news/article-23078.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>基于docker部署Oracle 19c的详细记录_docker</title>
+        <meta name="description" content="目录  一. 拉取Oracle 19c镜像 二. 查看镜像 三. 创建Oracle 19c镜像的容器  3.1创建目录 3.2 创建实例 3.3 查看日志  四、 修改密码  五、连接数据库  5.1" />
+        <link rel="icon" href="/assets/website/img/clash-s/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css here -->
+    <link rel="stylesheet" href="/assets/website/css/clash-s/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/meanmenu.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/animate.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/scrolltop.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/swiper.min.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/default.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/style.css">
+    <link rel="stylesheet" href="/assets/website/css/clash-s/responsive.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6MTV7MZZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P6MTV7MZZZ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1530351503997410"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!-- preloaders start -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- preloaders end -->
+    <!-- header area start -->
+    <header>
+        <!-- header area start -->
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <!-- logo start -->
+                    <div class="col-md-4">
+                        <div class="header-logo">
+                            <a href="/">
+                                                                <span>Clash-S</span>
+                                                            </a>
+                        </div>
+                    </div>
+                    <!-- main menu area start -->
+                    <div class="col-md-8">
+                        <div class="main-menu-area float-right">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                                                                <li><a href="/">首页</a></li>
+                                                                                <li><a href="/free-nodes/">免费节点</a></li>
+                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                                <li><a href="/news/">新闻资讯</a></li>
+                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="#">联系</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                    <!-- main menu area end -->
+                </div>
+            </div>
+        </div>
+        <!-- header area end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+        <!-- breadcrumb area start -->
+        <div id="apork-breadcrumb-area" class="apork-breadcrumb-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>基于docker部署Oracle 19c的详细记录_docker</h1>
+                        <ul class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/" title="首页">首页</a></li>
+                            <li class="breadcrumb-item"><a href="/news/" title="新闻资讯">新闻资讯</a></li>
+                            <li class="breadcrumb-item active">正文</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb area end -->
+        <!-- about area start -->
+        <div class="apork-about-area mt-230 mb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                  				  				  				<div id="navCategory"> <h5 class="catalogue">目录</h5> <ul class="first_class_ul"> <li><a href="#_label0" rel="nofollow">一. 拉取Oracle 19c镜像</a></li> <li><a href="#_label1" rel="nofollow">二. 查看镜像</a></li> <li><a href="#_label2" rel="nofollow">三. 创建Oracle 19c镜像的容器</a></li> <ul class="second_class_ul"> <li><a href="#_lab2_2_0" rel="nofollow">3.1创建目录</a></li> <li><a href="#_lab2_2_1" rel="nofollow">3.2 创建实例</a></li> <li><a href="#_lab2_2_2" rel="nofollow">3.3 查看日志</a></li> </ul> <li><a href="#_label3" rel="nofollow">四、 修改密码</a></li> <ul class="second_class_ul"></ul> <li><a href="#_label4" rel="nofollow">五、连接数据库</a></li> <ul class="second_class_ul"> <li><a href="#_lab2_4_3" rel="nofollow">5.1测试方案一：进入容器内部测试</a></li> <li><a href="#_lab2_4_4" rel="nofollow">5.2测试方案二：用navicat连接测试</a></li> </ul> </ul> </div> <p class="maodian"><a name="_label0" rel="nofollow"></a></p> <h2>一. 拉取Oracle 19c镜像</h2> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 docker]# docker pull registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c  19c: Pulling from zhuyijun/oracle  bce8f778fef0: Pull complete   3fc3fd32c0bc: Pull complete   02948dd6d654: Pull complete   67f2dfeb2f1b: Pull complete   2e42d8039fd9: Pull complete   b94f01bb60c6: Pull complete   Digest: sha256:3898a9394720f30ce7f0b83ef2d172f4cd11b958282e0505f83cf2b0e5eaf7d4  Status: Downloaded newer image for registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c  registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c</pre> </div> <p class="maodian"><a name="_label1" rel="nofollow"></a></p> <h2>二. 查看镜像</h2> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 docker]# docker images  REPOSITORY                                          TAG       IMAGE ID       CREATED         SIZE  registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle   19c       7b5eb4597688   20 months ago   6.61GB  [root@node08002 docker]# </pre> </div> <p class="maodian"><a name="_label2" rel="nofollow"></a></p> <h2>三. 创建Oracle 19c镜像的容器</h2> <p class="maodian"><a name="_lab2_2_0" rel="nofollow"></a></p> <h3>3.1创建目录</h3> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 docker]# mkdir /opt/oradata  [root@node08002 docker]# chmod -R 777 /opt/oradata/  [root@node08002 docker]# </pre> </div> <p class="maodian"><a name="_lab2_2_1" rel="nofollow"></a></p> <h3>3.2 创建实例</h3> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 docker]# docker run -d -it --name oracle19c -p 1521:1521 -p 5500:5500 -v /opt/oradata:/opt/oracle/oradata registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c  </pre> </div> <p class="maodian"><a name="_lab2_2_2" rel="nofollow"></a></p> <h3>3.3 查看日志</h3> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker logs -f oracle19c  ORACLE EDITION: ENTERPRISE  ORACLE PASSWORD FOR SYS, SYSTEM AND PDBADMIN: CRiP1dWzDHA=1     LSNRCTL for Linux: Version 19.0.0.0.0 - Production on 06-APR-2022 10:28:18  Copyright (c) 1991, 2019, Oracle.  All rights reserved.  Starting /opt/oracle/product/19c/dbhome_1/bin/tnslsnr: please wait...  TNSLSNR for Linux: Version 19.0.0.0.0 - Production  System parameter file is /opt/oracle/product/19c/dbhome_1/network/admin/listener.ora  Log messages written to /opt/oracle/diag/tnslsnr/1249a4a7bb32/listener/alert/log.xml  Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1)))  Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=1521)))  Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1)))  STATUS of the LISTENER  ------------------------  Alias                     LISTENER  Version                   TNSLSNR for Linux: Version 19.0.0.0.0 - Production  Start Date                06-APR-2022 10:28:18  Uptime                    0 days 0 hr. 0 min. 0 sec  Trace Level               off  Security                  ON: Local OS Authentication  SNMP                      OFF  Listener Parameter File   /opt/oracle/product/19c/dbhome_1/network/admin/listener.ora  Listener Log File         /opt/oracle/diag/tnslsnr/1249a4a7bb32/listener/alert/log.xml  Listening Endpoints Summary...    (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC1)))    (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=1521)))  The listener supports no services  The command completed successfully  Prepare for db operation  8% complete  Copying database files  31% complete  Creating and starting Oracle instance  32% complete  36% complete  40% complete  43% complete  46% complete  Completing Database Creation  51% complete  54% complete  Creating Pluggable Databases  58% complete  77% complete  Executing Post Configuration Actions  100% complete  Database creation complete. For details check the logfiles at:   /opt/oracle/cfgtoollogs/dbca/ORCLCDB.  Database Information:  Global Database Name:ORCLCDB  System Identifier(SID):ORCLCDB  Look at the log file "/opt/oracle/cfgtoollogs/dbca/ORCLCDB/ORCLCDB.log" for further details.  SQL*Plus: Release 19.0.0.0.0 - Production on Wed Apr 6 10:48:37 2022  Version 19.3.0.0.0  Copyright (c) 1982, 2019, Oracle.  All rights reserved.</pre> </div> <p class="maodian"><a name="_label3" rel="nofollow"></a></p> <h2>四、 修改密码</h2> <blockquote> <p>系统默认的system密码修改成oracle</p> </blockquote> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker exec oracle19c ./setPassword.sh oracle</pre> </div> <blockquote> <p>setPassword.sh 脚本如下</p> </blockquote> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker exec -it oracle19c /bin/bash  [oracle@1249a4a7bb32 ~]$ ls  setPassword.sh  [oracle@1249a4a7bb32 ~]$ pwd  /home/oracle  [oracle@1249a4a7bb32 ~]$ cat setPassword.sh   #!/bin/bash  # LICENSE UPL 1.0  #  # Copyright (c) 1982-2018 Oracle and/or its affiliates. All rights reserved.  #   # Since: November, 2016  # Author: gerald.venzl@oracle.com  # Description: Sets the password for sys, system and pdb_admin  #  # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.  #      ORACLE_PWD=$1  ORACLE_SID="`grep $ORACLE_HOME /etc/oratab | cut -d: -f1`"  ORACLE_PDB="`ls -dl $ORACLE_BASE/oradata/$ORACLE_SID/*/ | grep -v pdbseed | awk '{print $9}' | cut -d/ -f6`"  ORAENV_ASK=NO  source oraenv     sqlplus / as sysdba &lt;&lt; EOF        ALTER USER SYS IDENTIFIED BY "$ORACLE_PWD";        ALTER USER SYSTEM IDENTIFIED BY "$ORACLE_PWD";        ALTER SESSION SET CONTAINER=$ORACLE_PDB;        ALTER USER PDBADMIN IDENTIFIED BY "$ORACLE_PWD";        exit;  EOF     [oracle@1249a4a7bb32 ~]$ </pre> </div> <p class="maodian"><a name="_label4" rel="nofollow"></a></p> <h2>五、连接数据库</h2> <blockquote> <p>sqlplus system/oracle@xxx.xxx.xxx.xxx:1521/ORCLCDB</p> </blockquote> <p class="maodian"><a name="_lab2_4_3" rel="nofollow"></a></p> <h3>5.1测试方案一：进入容器内部测试</h3> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker exec -it oracle19c /bin/bash  [oracle@1249a4a7bb32 ~]$ sqlplus system/oracle@localhost:1521/ORCLCDB     SQL*Plus: Release 19.0.0.0.0 - Production on Thu Apr 7 01:54:17 2022  Version 19.3.0.0.0  Copyright (c) 1982, 2019, Oracle.  All rights reserved.  Last Successful login time: Thu Apr 07 2022 01:53:14 +00:00  Connected to:  Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production  SQL&gt; Show user;  USER is "SYSTEM"  SQL&gt; exit  Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production  [oracle@1249a4a7bb32 ~]$ </pre> </div> <p class="maodian"><a name="_lab2_4_4" rel="nofollow"></a></p> <h3>5.2测试方案二：用navicat连接测试</h3> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker exec -it oracle19c /bin/bash  [oracle@1249a4a7bb32 ~]$ cd /opt/oracle/product/19c/dbhome_1/network/admin/  [oracle@1249a4a7bb32 admin]$ ls  listener.ora  samples  shrept.lst  sqlnet.ora  tnsnames.ora  [oracle@1249a4a7bb32 admin]$ vim sqlnet.ora   [oracle@1249a4a7bb32 admin]$ cat sqlnet.ora   NAME.DIRECTORY_PATH= (TNSNAMES, EZCONNECT, HOSTNAME)  [oracle@1249a4a7bb32 admin]$ vim sqlnet.ora   [oracle@1249a4a7bb32 admin]$ cat sqlnet.ora   NAME.DIRECTORY_PATH= (TNSNAMES, EZCONNECT, HOSTNAME)  SQLNET.ALLOWED_LOGON_VERSION_CLIENT=8  SQLNET.ALLOWED_LOGON_VERSION_SERVER=8  [oracle@1249a4a7bb32 admin]$ exit  exit  [root@node08002 ~]# docker ps -a  CONTAINER ID   IMAGE                                                   COMMAND                  CREATED        STATUS                  PORTS                                                                                  NAMES  1249a4a7bb32   registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c   "/bin/sh -c 'exec $O…"   16 hours ago   Up 16 hours (healthy)   0.0.0.0:1521-&gt;1521/tcp, :::1521-&gt;1521/tcp, 0.0.0.0:5500-&gt;5500/tcp, :::5500-&gt;5500/tcp   oracle19c  [root@node08002 ~]# docker restart oracle19c  oracle19c  [root@node08002 ~]# </pre> </div> <blockquote> <p>很奇怪,又要修改一次密码,具体操作步骤如下:</p> </blockquote> <div class="ay1code"> <pre class="brush:bash;">[root@node08002 ~]# docker exec -it oracle19c /bin/bash  [oracle@1249a4a7bb32 ~]$ sqlplus system/oracle@localhost:1521/ORCLCDB     SQL*Plus: Release 19.0.0.0.0 - Production on Thu Apr 7 02:59:52 2022  Version 19.3.0.0.0     Copyright (c) 1982, 2019, Oracle.  All rights reserved.     Last Successful login time: Thu Apr 07 2022 02:59:10 +00:00     Connected to:  Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production  Version 19.3.0.0.0     SQL&gt; alter user system identified by oracle;     User altered.     SQL&gt; exit  Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production  Version 19.3.0.0.0</pre> </div> <p>终于可以连接了</p> <p style="text-align:center"><img fetchpriority="high" decoding="async" alt="" height="636" src="http://img.555519.xyz/uploads3/20220423/79ca8cb7233565e3673df2a1ce83b240.jpg"></p> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-23077.htm">判断数A中是否存在一棵同构于B的子树</a></p>
+                                        <p>下一个：<a href="/news/article-23520.htm">宠物粮食龙头 宠物粮食龙头股</a></p>
+                                    </div>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-24929.htm" title="狗狗服装裁剪与制作视频（狗狗衣服裁剪法及图样）">狗狗服装裁剪与制作视频（狗狗衣服裁剪法及图样）</a></li>
+                        <li class="py-2"><a href="/news/article-33365.htm" title="附近宠物狗粮店在哪里（附近哪里有狗粮）">附近宠物狗粮店在哪里（附近哪里有狗粮）</a></li>
+                        <li class="py-2"><a href="/news/article-27250.htm" title="写给老婆的保证书挽回离婚（写给老婆的保证书挽回离婚模板）">写给老婆的保证书挽回离婚（写给老婆的保证书挽回离婚模板）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-8-node-share-links.htm" title="Clash-S节点订阅每天更新18.7M/S免费节点订阅链接">Clash-S节点订阅每天更新18.7M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-26783.htm" title="兽药原料价格网（兽药原料价格上涨）">兽药原料价格网（兽药原料价格上涨）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-2-free-node-subscribe.htm" title="Clash-S节点订阅每天更新20.2M/S免费节点订阅链接">Clash-S节点订阅每天更新20.2M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-12-23-free-node-subscribe.htm" title="Clash-S节点订阅每天更新20.6M/S免费节点订阅链接">Clash-S节点订阅每天更新20.6M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2024-11-27-free-high-speed-nodes.htm" title="Clash-S节点订阅每天更新18.9M/S免费节点订阅链接">Clash-S节点订阅每天更新18.9M/S免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-32427.htm" title="宠物领养要花钱吗多少钱（宠物领养需要花钱吗）">宠物领养要花钱吗多少钱（宠物领养需要花钱吗）</a></li>
+                        <li class="py-2"><a href="/news/article-27249.htm" title="动物防疫疫苗空瓶如何销毁处理措施（动物疫苗未冷藏几小时失效）">动物防疫疫苗空瓶如何销毁处理措施（动物疫苗未冷藏几小时失效）</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2025-01/" title="2025-01 归档">2025-01</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">92</span> <a href="/date/2024-12/" title="2024-12 归档">2024-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">32</span> <a href="/date/2024-11/" title="2024-11 归档">2024-11</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about area end -->
+                <!-- footer area start -->
+        <footer id="apork-footer-area" class="apork-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="footer-copyright text-center py-5">
+                    <p>
+                        <a href="/">首页</a> | 
+                        <a href="/free-node/">免费节点</a> | 
+                        <a href="/news/">新闻资讯</a> |
+                        <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                            <p>
+                                <a href="/">Clash-S免费机场订阅节点官网</a> 版权所有 Powered by WordPress
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+        <!-- scrolltop button -->
+        <div class="material-scrolltop"></div>
+        <!-- js here -->
+        <script src="/assets/website/js/frontend/clash-s/modernizr-3.5.0.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/jquery-1.12.4.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/popper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/bootstrap.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/swiper.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/meanmenu.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/magnific-popup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/owl.carousel.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/waypoints.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/counterup.min.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/scrolltop.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/ajax-form.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/plugins.js"></script>
+        <script src="/assets/website/js/frontend/clash-s/main.js"></script>
+        <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+        <script src="/assets/website/js/frontend/G.js"></script>
+    </main>
+    <!-- main area end -->
+</body>
+
+</html>
