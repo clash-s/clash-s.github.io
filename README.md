@@ -35,10 +35,10 @@
 - 圣诞 元旦 8 折优惠 限时活动-有效期至2025/1/10 23:59，全场 8 折优惠券: 2025，购买订阅时,优惠券填写 2025 并验证,可获得八折优惠。 下单时输入优惠码后点击验证，价格即会更新，费用低至0.33元/天,无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
 - 网站注册地址：【<a href="https://inv.easyfastcloud.com/#/register?code=Rg3jlrsW" target="_blank">EFCloud（点击注册）</a>】
 
-### 高速机场推荐2【<a href="https://www.fastconnectcloud.net/register?aff=VImoLSwr" target="_blank">FCCloud</a>】
+### 高速机场推荐2【<a href="https://www.fastconnectcloud.net/register?aff=qGNvJ8Oy" target="_blank">FCCloud</a>】
 
 - - 圣诞 元旦 8 折优惠 限时活动-有效期至2025/1/10 23:59，全场 8 折优惠券: 2025，购买订阅时,优惠券填写 2025 并验证,可获得八折优惠。  下单时输入优惠码后点击验证，价格即会更新，费用低至0.33元/天,无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
-- 网站注册地址：【<a href="https://www.fastconnectcloud.net/register?aff=VImoLSwr" target="_blank">FCCloud（点击注册）</a>】
+- 网站注册地址：【<a href="https://www.fastconnectcloud.net/register?aff=qGNvJ8Oy" target="_blank">FCCloud（点击注册）</a>】
 
 ### 高速机场推荐3【<a href="https://goudan.site/#/register?code=LQzUg4EU" target="_blank">西游云</a>】
 
