@@ -109,7 +109,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
-                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://cash-s.github.io">
+                                        <input type="hidden" id="share-website-info" data-name="Clash-S节点订阅官网" data-url="https://clash-s.github.io">
                   				  				  				<blockquote> <p>昨天一个3年Java经验的小伙伴私信我，他说现在面试怎么这么难啊！<br /> 我只是面试一个业务开发，他们竟然问我： 什么叫阻塞队列的有界和无界。现在面试也太卷了吧!<br /> 如果你也遇到过类似问题，那我们来看看普通人和高手的回答吧！</p> </blockquote> </h1> <p>有界队列就是说队列中的元素个数是有限制的，而无界对接表示队列中的元素个数没有限制！ 嗯！！！</p> </h1> <ol> <li> <p>阻塞队列，是一种特殊的队列，它在普通队列的基础上提供了两个附加功能<img decoding="async" src="http://img.555519.xyz/uploads3/20220509/01b89c1adb695ab1c153c6f0805d9537.jpg" alt="什么叫做阻塞队列的有界和无界"></p> <ol> <li>当队列为空的时候，获取队列中元素的消费者线程会被阻塞，同时唤醒生产者线程。</li> <li>当队列满了的时候，向队列中添加元素的生产者线程被阻塞，同时唤醒消费者线程。</li> </ol> </li> <li> <p>其中，阻塞队列中能够容纳的元素个数，通常情况下是有界的，比如我们实例化一个<code>ArrayBlockingList</code>，可以在构造方法中传入一个整形的数字，表示这个基于数组的阻塞队列中能够容纳的元素个数。这种就是有界队列。</p> </li> <li> <p>而无界队列，就是没有设置固定大小的队列，不过它并不是像我们理解的那种元素没有任何限制，而是它的元素存储量很大，像LinkedBlockingQueue，它的默认队列长度是Integer.Max_Value，所以我们感知不到它的长度限制。</p> </li> <li> <p>无界队列存在比较大的潜在风险，如果在并发量较大的情况下，线程池中可以几乎无限制的添加任务，容易导致内存溢出的问题！</p> </li> </ol> <p>以上就是我对这个问题的理解!</p> </h1> <p>阻塞队列在生产者消费者模型的场景中使用频率比较高，比较典型的就是在线程池中，通过阻塞队列来实现线程任务的生产和消费功能。</p> <p>基于阻塞队列实现的生产者消费者模型比较适合用在异步化性能提升的场景，以及做并发流量缓冲类的场景中！</p> <p>在很多开源中间件中都可以看到这种模型的使用，比如在Zookeeper源码中就大量用到了阻塞队列实现的生产者消费者模型。</p> 			                <div class="clearfix"></div>
                 <div class="col-md-12 mt-5">
                                         <p>上一个：<a href="/news/article-35217.htm">兰州宠物用品批发地点在哪里啊电话（兰州最大的宠物店）</a></p>
