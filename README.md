@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-22 10:32:48
+# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-23 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 
@@ -7,16 +7,16 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250122.yaml
+- https://a.nodeshare.xyz/uploads/2025/1/20250123.yaml
 -
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250122.txt
+- https://a.nodeshare.xyz/uploads/2025/1/20250123.txt
 - 
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250122.json
+- https://a.nodeshare.xyz/uploads/2025/1/20250123.json
 
 ## 更多clash节点订阅 ：
 
