@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-23 10:32:48
+# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-24 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 
@@ -7,16 +7,16 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250123.yaml
+- https://a.nodeshare.xyz/uploads/2025/1/20250124.yaml
 -
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250123.txt
+- https://a.nodeshare.xyz/uploads/2025/1/20250124.txt
 - 
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250123.json
+- https://a.nodeshare.xyz/uploads/2025/1/20250124.json
 
 ## 更多clash节点订阅 ：
 
@@ -26,9 +26,7 @@
 
 | 机场名称 | 地址 | 试用 | 最便宜订阅 | 按流量购买 |
 | :-- | :-- | :-- | :-- | :-- |
-| [EF](https://www.efcloud1.com/#/register?code=Rg3jlrsW) | [www.efcloud1.com](https://www.efcloud1.com/#/register?code=Rg3jlrsW) |  | 10 元 200G/月 |  |
-| [spcloud](https://invite.spcloud.vip/#/register?code=vS77JVkP) | [spcloud.vip](https://invite.spcloud.vip/#/register?code=vS77JVkP) |  | 10 元 200G/月 |  |
-| [FC](https://www.fastconnectcloud.net/#/register?code=qGNvJ8Oy) | [fastconnectcloud.net](https://www.fastconnectcloud.net/#/register?code=qGNvJ8Oy) |  | 10 元 200G/月 |  |
+| [KK加速](https://kkjiasu.top/#/register?code=lhGhQflc) | [www.efcloud1.com](https://kkjiasu.top/#/register?code=lhGhQflc) |  | 8 元 200G/月 |  |
 | [冲上云霄](https://cpdd.one/?r=42354) | [https://cpdd.one](https://cpdd.one/?r=42354) | 1天 1G | 5元 150G/30天 | ✔支持 |
 | [星辰vpn](https://t.xcvpn.us/#/register?code=tLBWwhPs) | [t.xcvpn.us](https://t.xcvpn.us/#/register?code=tLBWwhPs) |  | 9.9元 140G/月 |  |
 | [狗狗加速器](https://www.dginv.click/#/register?code=yi5aid0d) | [dginv.click](https://www.dginv.click/#/register?code=yi5aid0d) |  | 9.9元 140G/月 |  |
@@ -37,20 +35,20 @@
 | [快猫](https://kuaimao.io/#/register?code=9xg6G0AV) | [kuaimao.io](https://kuaimao.io/#/register?code=9xg6G0AV) |  | 10元 100G/月 | ✔支持 |
 | [西瓜云](https://goudan.site/#/register?code=LQzUg4EU) | [goudan.site](https://goudan.site/#/register?code=LQzUg4EU) |  | 9元 120G/月 |  |
 | [稳连云](https://xn--9kqq77hqun.com/#/register?code=tsTYVbC0) | [9kqq77hqun.com](https://xn--9kqq77hqun.com/#/register?code=tsTYVbC0) |  | 7元 100G/月 |  |
-| [EF](https://www.efcloud1.com/#/register?code=Rg3jlrsW) | [www.efcloud1.com](https://www.efcloud1.com/#/register?code=Rg3jlrsW) |  | 10 元 200G/月 |  |
+| [KK加速](https://kkjiasu.top/#/register?code=lhGhQflc) | [www.efcloud1.com](https://kkjiasu.top/#/register?code=lhGhQflc) |  | 8 元 200G/月 |  |
 | [星链云](https://starlinkcloud.cc/#/register?code=UTNDuia8) | [starlinkcloud.cc](https://starlinkcloud.cc/#/register?code=UTNDuia8) |  | 20元 200G/月 |  |
 | [火烧云](https://huoshaoyun.pro/#/register?code=BP3fNkQd) | [huoshaoyun.pro](https://huoshaoyun.pro/#/register?code=BP3fNkQd) |  | 18元 100G/月 |  |
 
 
-### 高速机场推荐1【<a href="https://inv.easyfastcloud.com/#/register?code=Rg3jlrsW" target="_blank">EFCloud</a>】
+### 高速机场推荐1【<a href="https://kkjiasu.top/#/register?code=lhGhQflc" target="_blank">KK加速</a>】
 
-- 圣诞 元旦 8 折优惠 限时活动-有效期至2025/1/10 23:59，全场 8 折优惠券: 2025，购买订阅时,优惠券填写 2025 并验证,可获得八折优惠。 下单时输入优惠码后点击验证，价格即会更新，费用低至0.33元/天,无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
-- 网站注册地址：【<a href="https://inv.easyfastcloud.com/#/register?code=Rg3jlrsW" target="_blank">EFCloud（点击注册）</a>】
+无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
+- 网站注册地址：【<a href="https://kkjiasu.top/#/register?code=lhGhQflc" target="_blank">KK加速（点击注册）</a>】
 
-### 高速机场推荐2【<a href="https://www.fastconnectcloud.net/register?aff=qGNvJ8Oy" target="_blank">FCCloud</a>】
+### 高速机场推荐2【<a href="https://flybit.vip/#/register?code=iV0dLWfT" target="_blank">flybit</a>】
 
-- - 圣诞 元旦 8 折优惠 限时活动-有效期至2025/1/10 23:59，全场 8 折优惠券: 2025，购买订阅时,优惠券填写 2025 并验证,可获得八折优惠。  下单时输入优惠码后点击验证，价格即会更新，费用低至0.33元/天,无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
-- 网站注册地址：【<a href="https://www.fastconnectcloud.net/register?aff=qGNvJ8Oy" target="_blank">FCCloud（点击注册）</a>】
+-无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
+- 网站注册地址：【<a href="https://flybit.vip/#/register?code=iV0dLWfT" target="_blank">flybit（点击注册）</a>】
 
 ### 高速机场推荐3【<a href="https://goudan.site/#/register?code=LQzUg4EU" target="_blank">西游云</a>】
 
