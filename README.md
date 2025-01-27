@@ -11,11 +11,11 @@
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250126.txt
+- https://a.nodeshare.xyz/uploads/2025/1/20250127.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250126.json
+- https://a.nodeshare.xyz/uploads/2025/1/20250127.json
 
 ## 更多clash节点订阅 ：
 
