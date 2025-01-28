@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-27 10:32:48
+# Clash-S节点订阅每天更新21.5M/S免费节点订阅链接  更新时间 2025-01-28 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 
@@ -7,15 +7,15 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250127.yaml
+- https://a.nodeshare.xyz/uploads/2025/1/20250128.yaml
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250127.txt
+- https://a.nodeshare.xyz/uploads/2025/1/20250128.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/1/20250127.json
+- https://a.nodeshare.xyz/uploads/2025/1/20250128.json
 
 ## 更多clash节点订阅 ：
 
@@ -35,7 +35,7 @@
 | [西瓜云](https://goudan.site/#/register?code=LQzUg4EU) | [点击进入](https://goudan.site/#/register?code=LQzUg4EU) |  | 9元 120G/月 |  |
 | [稳连云](https://xn--9kqq77hqun.com/#/register?code=tsTYVbC0) | [点击进入](https://xn--9kqq77hqun.com/#/register?code=tsTYVbC0) |  | 7元 100G/月 |  |
 | [KK加速](https://kkjiasu.top/#/register?code=lhGhQflc) | [点击进入](https://kkjiasu.top/#/register?code=lhGhQflc) |  | 8 元 200G/月 |  |
-| [星链云](https://starlinkcloud.cc/#/register?code=UTNDuia8) | [点击进入](https://starlinkcloud.cc/#/register?code=UTNDuia8) |  | 20元 200G/月 |  |
+| [冰灵加速](https://sulian.info/#/register?code=3R5DYYrL) | [点击进入](https://sulian.info/#/register?code=3R5DYYrL) |  | 8.9元 129G/月 |  |
 | [火烧云](https://huoshaoyun.pro/#/register?code=BP3fNkQd) | [点击进入](https://huoshaoyun.pro/#/register?code=BP3fNkQd) |  | 18元 100G/月 |  |
 
 
