@@ -7,7 +7,7 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250602.yaml
+- https://a.nodeshare.xyz/uploads/2025/6/20250601.yaml
 
 ### V2ray订阅链接
 
