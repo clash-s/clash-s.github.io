@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.1M/S免费节点订阅链接  更新时间 2025-06-09 10:32:48
+# Clash-S节点订阅每天更新18.1M/S免费节点订阅链接  更新时间 2025-06-10 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 
@@ -7,15 +7,15 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250609.yaml
+- https://a.nodeshare.xyz/uploads/2025/6/20250610.yaml
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250609.txt
+- https://a.nodeshare.xyz/uploads/2025/6/20250610.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250609.json
+- https://a.nodeshare.xyz/uploads/2025/6/20250610.json
 
 ## 更多clash节点订阅 ：
 
@@ -35,6 +35,18 @@
 | [火烧云](https://huoshaoyun.pro/#/register?code=BP3fNkQd) | [点击进入](https://huoshaoyun.pro/#/register?code=BP3fNkQd) |  | 18元 100G/月 |  |
 
 
+
+### [冲上云霄](https://cpdd.one/?r=42354)
+
+点击注册：[点击进入](https://cpdd.one/?r=42354)
+
+试用：1天 1G
+
+最便宜的订阅有10元 300G/30天。
+
+这是目前来看最便宜的机场，用户也比较多，节点质量过关。不限登录设备数，chatGPT 解锁奈飞、Disney、HBO、TVB、Happyon、AbemaTV 等在内的多种流媒体视频
+
+* * *
 
 
 ### 高速机场推荐2【<a href="https://flybit.vip/#/register?code=iV0dLWfT" target="_blank">flybit</a>】
