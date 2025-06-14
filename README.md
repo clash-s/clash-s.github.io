@@ -1,21 +1,32 @@
-# Clash-S节点订阅每天更新18.1M/S免费节点订阅链接  更新时间 2025-06-13 10:32:48
+# Clash-S节点订阅每天更新18.1M/S免费节点订阅链接  更新时间 2025-06-14 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 
+### [【88云加速】](https://88cloud.dpdns.org/#/register?code=LSpR3sOK)
+
+原生支持解锁流媒体，内容包括 Netflix、Disney、HBO、TVB、Happyon、AbemaTV 等在内的多种流媒体视频
+
+试用:1天2G
+
+解锁奈飞迪士尼
+
+注册地址：[【88云加速（点击注册）】](https://88cloud.dpdns.org/#/register?code=LSpR3sOK)
+
+*  *   *
 
 ## 订阅链接：
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250613.yaml
+- https://a.nodeshare.xyz/uploads/2025/6/20250614.yaml
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250613.txt
+- https://a.nodeshare.xyz/uploads/2025/6/20250614.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250613.json
+- https://a.nodeshare.xyz/uploads/2025/6/20250614.json
 
 ## 更多clash节点订阅 ：
 
@@ -25,6 +36,7 @@
 
 | 机场名称 | 地址 | 试用 | 最便宜订阅 | 按流量购买 |
 | :-- | :-- | :-- | :-- | :-- |
+| [88云加速](https://88cloud.dpdns.org/#/register?code=LSpR3sOK) | [点击进入](https://88cloud.dpdns.org/#/register?code=LSpR3sOK) | 1天2G 	 | 10元 100G/月 | ✔支持 |
 | [冲上云霄](https://cpdd.one/?r=42354) | [点击进入](https://cpdd.one/?r=42354) | 1天 1G | 5元 150G/30天 | ✔支持 |
 | [星辰vpn](https://t.xcvpn.us/#/register?code=tLBWwhPs) | [点击进入](https://t.xcvpn.us/#/register?code=tLBWwhPs) |  | 9.9元 140G/月 |  |
 | [狗狗加速器](https://www.dginv.click/#/register?code=yi5aid0d) | [点击进入](https://www.dginv.click/#/register?code=yi5aid0d) |  | 9.9元 140G/月 |  |
