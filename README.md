@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.6M/S免费节点订阅链接  更新时间 2025-06-17 10:32:48
+# Clash-S节点订阅每天更新18.3M/S免费节点订阅链接  更新时间 2025-06-18 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 ## 付费机场
@@ -11,7 +11,7 @@
 
 解锁奈飞迪士尼
 
-注册地址：[【88云加速（点击注册）】](https://88cloud.dpdns.org/#/register?code=LSpR3sOK)
+#### 注册地址：[【88云加速（点击注册）】](https://88cloud.dpdns.org/#/register?code=LSpR3sOK)
 
 *  *   *
 
@@ -19,15 +19,15 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250617.yaml
+- https://a.nodeshare.xyz/uploads/2025/6/20250618.yaml
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250617.txt
+- https://a.nodeshare.xyz/uploads/2025/6/20250618.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250617.json
+- https://a.nodeshare.xyz/uploads/2025/6/20250618.json
 
 ## 更多clash节点订阅 ：
 
