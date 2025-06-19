@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.3M/S免费节点订阅链接  更新时间 2025-06-18 10:32:48
+# Clash-S节点订阅每天更新18.3M/S免费节点订阅链接  更新时间 2025-06-19 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 ## 付费机场
@@ -6,6 +6,8 @@
 ### [【88云加速】](https://88cloud.dpdns.org/#/register?code=LSpR3sOK)
 
 原生支持解锁流媒体，内容包括 Netflix、Disney、HBO、TVB、Happyon、AbemaTV 等在内的多种流媒体视频
+
+10元 100G/月
 
 试用:1天2G
 
@@ -19,15 +21,15 @@
 
 ### Clash订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250618.yaml
+- https://a.nodeshare.xyz/uploads/2025/6/20250619.yaml
 
 ### V2ray订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250618.txt
+- https://a.nodeshare.xyz/uploads/2025/6/20250619.txt
   
 ### Sing-box订阅链接
 
-- https://a.nodeshare.xyz/uploads/2025/6/20250618.json
+- https://a.nodeshare.xyz/uploads/2025/6/20250619.json
 
 ## 更多clash节点订阅 ：
 
