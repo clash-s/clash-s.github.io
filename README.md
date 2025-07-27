@@ -47,9 +47,6 @@
 | [狗狗加速器](https://www.dginv.click/#/register?code=yi5aid0d) | [点击进入](https://www.dginv.click/#/register?code=yi5aid0d) |  | 9.9元 140G/月 |  |
 | [flybit](https://flybit.my/#/register?code=iV0dLWfT) | [点击进入](https://flybit.my/#/register?code=iV0dLWfT) | 1天2G | 10元 100G/月 | ✔支持 |
 | [快猫](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) | [点击进入](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) |  | 10元 100G/月 | ✔支持 |
-| [西瓜云](https://155.248.222.101/#/register?code=2mVFWPT1) | [点击进入](https://155.248.222.101/#/register?code=2mVFWPT1) |  | 9元 120G/月 |  |
-| [冰灵加速](https://sulian.info/#/register?code=3R5DYYrL) | [点击进入](https://sulian.info/#/register?code=3R5DYYrL) |  | 8.9元 129G/月 |  |
-| [火烧云](https://cn1.huoshaoyun.pro/#/register?code=BP3fNkQd) | [点击进入](https://cn1.huoshaoyun.pro/#/register?code=BP3fNkQd) |  | 18元 100G/月 |  |
 
 
 
@@ -71,10 +68,6 @@
 -无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
 - 网站注册地址：【<a href="https://flybit.my/#/register?code=iV0dLWfT" target="_blank">flybit（点击注册）</a>】
 
-### 高速机场推荐3【<a href="https://155.248.222.101/#/register?code=2mVFWPT1" target="_blank">西游云</a>】
-
-- 无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
-- 网站注册地址：【<a href="[https://155.248.222.101/#/register?code=2mVFWPT1" target="_blank">西游云（点击注册）</a>】
 
 ### 高速机场推荐4【<a href="https://login.dg5.biz/#/register?code=O3l5SX1q" target="_blank">狗狗加速</a>】
 
