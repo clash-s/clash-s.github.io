@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://a353502.sitemaphosting7.com/4633989/sitemap_4633989.xml
 Sitemap: /sitemap.xml
