@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-2-8 10:32:48
+# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-2-9 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 ### 关注<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://t.me/clashjd">「TG频道</a>」</span>可第一时间获得节点更新消息，还可解锁神秘高速节点！
@@ -35,15 +35,15 @@
 
 ### Clash订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260208.yaml
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260209.yaml
 
 ### V2ray订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260208.txt
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260209.txt
   
 ### Sing-box订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260208.json
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/2/20260209.json
 
 ## 更多clash节点订阅 ：
 
