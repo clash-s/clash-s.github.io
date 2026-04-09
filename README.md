@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-4-8 10:32:48
+# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-4-9 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 ### 关注<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://t.me/clashjd">「TG频道</a>」</span>可第一时间获得节点更新消息，还可解锁神秘高速节点！
@@ -18,7 +18,7 @@
 
 #### 注册地址：[【88云加速（点击注册）】](https://88cloud.pages.dev/#/register?code=LSpR3sOK)
 
-*  *   *
+
 
 * * *
 <h3></h3>
@@ -35,15 +35,15 @@
 
 ### Clash订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260408.yaml
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260409.yaml
 
 ### V2ray订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260408.txt
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260409.txt
   
 ### Sing-box订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260408.json
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/4/20260409.json
 
 ## 更多clash节点订阅 ：
 
@@ -56,7 +56,6 @@
 | [88云加速](https://88cloud.pages.dev/#/register?code=LSpR3sOK) | [点击进入](https://88cloud.pages.dev/#/register?code=LSpR3sOK) | 1天2G 	 | 10元 300G/月 | ✔支持 |
 | [星辰vpn](https://c.xcvpn.me/#/register?code=jWv0CnPO) | [点击进入](https://c.xcvpn.me/#/register?code=jWv0CnPO) |  | 9.9元 140G/月 | ✔支持 |
 | [狗狗加速器](https://www.dginv.click/#/register?code=yi5aid0d) | [点击进入](https://www.dginv.click/#/register?code=yi5aid0d) |  | 9.9元 140G/月 | ✔支持 |
-| [flybit](https://flybit.my/#/register?code=iV0dLWfT) | [点击进入](https://flybit.my/#/register?code=iV0dLWfT) | 1天2G | 10元 100G/月 | ✔支持 |
 | [快猫](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) | [点击进入](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) |  | 10元 100G/月 | ✔支持 |
 
 
@@ -64,10 +63,6 @@
 * * *
 
 
-### 高速机场推荐2【<a href="https://flybit.vip/#/register?code=iV0dLWfT" target="_blank">flybit</a>】
-
--无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！
-- 网站注册地址：【<a href="https://flybit.vip/#/register?code=iV0dLWfT" target="_blank">flybit（点击注册）</a>】
 
 
 ### 高速机场推荐4【<a href="https://login.dg5.biz/#/register?code=O3l5SX1q" target="_blank">狗狗加速</a>】
