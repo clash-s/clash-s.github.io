@@ -1,4 +1,4 @@
-# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-8-30 10:32:48
+# Clash-S节点订阅每天更新18.9M/S免费节点订阅链接  更新时间 2026-8-31 10:32:48
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clash-s.github.io" target="_blank">点击跳转</a>
 
 ### 关注<span style="color: #ff0000;"><a style="color: #ff0000;" href="https://t.me/clashjd">「TG频道</a>」</span>可第一时间获得节点更新消息，还可解锁神秘高速节点！
@@ -6,7 +6,7 @@
    
 ## 付费机场
 
-### [【88云加速】](https://88cloud.pages.dev/#/register?code=LSpR3sOK)
+### [【88云加速】](https://qq.88cloud.dpdns.org/#/register?code=n4KLfZJb)
 
 原生支持解锁流媒体，内容包括 Netflix、Disney、HBO、TVB、Happyon、AbemaTV 等在内的多种流媒体视频
 
@@ -16,7 +16,7 @@
 
 解锁奈飞迪士尼
 
-#### 注册地址：[【88云加速（点击注册）】](https://88cloud.pages.dev/#/register?code=LSpR3sOK)
+#### 注册地址：[【88云加速（点击注册）】](https://qq.88cloud.dpdns.org/#/register?code=n4KLfZJb)
 
 *  *   *
 ### [【绿牛云（点击注册）】](https://www.futizi.net/?code=UQjFiejp)
@@ -47,15 +47,15 @@
 
 ### Clash订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260830.yaml
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260831.yaml
 
 ### V2ray订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260830.txt
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260831.txt
   
 ### Sing-box订阅链接
 
-- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260830.json
+- https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260831.json
 
 ## 更多clash节点订阅 ：
 
@@ -63,9 +63,9 @@
 
 点击名称可以看到详情
 
-| 机场名称 | 地址 | 试用 | 最便宜订阅 | 按流量购买 |
+| 机场名称 | 地址 |    | 最便宜订阅 | 按流量购买 |
 | :-- | :-- | :-- | :-- | :-- |
-| [88云加速](https://88cloud.pages.dev/#/register?code=LSpR3sOK) | [点击进入](https://88cloud.pages.dev/#/register?code=LSpR3sOK) | 1天2G 	 | 10元 300G/月 | ✔支持 |
+| [88云加速](https://qq.88cloud.dpdns.org/#/register?code=n4KLfZJb) | [点击进入](https://qq.88cloud.dpdns.org/#/register?code=n4KLfZJb) | 	 | 10元 200G/月 | ✔支持 |
 | [星辰vpn](https://c.kilxs.cn/#/register?code=jWv0CnPO) | [点击进入](https://c.kilxs.cn/#/register?code=jWv0CnPO) |  | 9.9元 140G/月 | ✔支持 |
 | [狗狗加速器](https://www.dginv.click/#/register?code=yi5aid0d) | [点击进入](https://www.dginv.click/#/register?code=yi5aid0d) |  | 9.9元 140G/月 | ✔支持 |
 | [快猫](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) | [点击进入](https://cf2.ikuaimao.world/#/register?code=9xg6G0AV) |  | 10元 100G/月 | ✔支持 |
