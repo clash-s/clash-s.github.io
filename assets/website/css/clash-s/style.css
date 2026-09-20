@@ -525,7 +525,7 @@ ul.header-search li a:hover {
 /* hero area css */
 
 .hero-bg {
-    background-image: url(/assets/website/img/clash-s/hero-bg-1.jpg);
+    background-image: url(/assets/website/img/clashv2rayu/hero-bg-1.jpg);
     background-position: center center;
     background-size: cover;
     color: #fff;
@@ -769,7 +769,7 @@ ul.header-search li a:hover {
     background-attachment: inherit;
     position: relative;
     height: 100%;
-    background-image: url(/assets/website/img/clash-s/cta-bg.png);
+    background-image: url(/assets/website/img/clashv2rayu/cta-bg.png);
     background-color: #1a2b3c;
     background-repeat: no-repeat;
 }
@@ -882,7 +882,7 @@ ul.price-nav li:nth-child(2) a {
     background-attachment: inherit;
     position: absolute;
     height: 100%;
-    background-image: url(/assets/website/img/clash-s/prictable-bg.png);
+    background-image: url(/assets/website/img/clashv2rayu/prictable-bg.png);
     background-repeat: no-repeat;
     left: 0;
     right: 0;
@@ -1132,7 +1132,7 @@ ul.price-nav li:nth-child(2) a {
     background-size: cover;
     background-attachment: inherit;
     position: relative;
-    background-image: url(/assets/website/img/clash-s/testimonial-bg.png);
+    background-image: url(/assets/website/img/clashv2rayu/testimonial-bg.png);
     background-color: #1a2b3c;
 }
 
@@ -1275,7 +1275,7 @@ ul.price-nav li:nth-child(2) a {
     background-size: cover;
     background-attachment: inherit;
     position: relative;
-    background-image: url(/assets/website/img/clash-s/subscribe-bg.jpg);
+    background-image: url(/assets/website/img/clashv2rayu/subscribe-bg.jpg);
     background-color: #1a2b3c;
 }
 
@@ -1320,7 +1320,7 @@ ul.price-nav li:nth-child(2) a {
     background-position: center center;
     background-size: cover;
     background-attachment: inherit;
-    background-image: url(/assets/website/img/clash-s/foot-bg.png);
+    background-image: url(/assets/website/img/clashv2rayu/foot-bg.png);
     background-color: #1a2b3c;
 }
 
@@ -1438,7 +1438,7 @@ ul.gallery-all-img li:nth-child(5) {
     background-position: center center;
     background-size: cover;
     position: relative;
-    background-image: url(/assets/website/img/clash-s/breadcrumb.png);
+    background-image: url(/assets/website/img/clashv2rayu/breadcrumb.png);
     padding: 140px 0;
     background-color: #1a2b3c;
 }
