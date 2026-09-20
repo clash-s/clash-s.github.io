@@ -1,0 +1,29 @@
+name: Auto Create Today Post & Paging Indexes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  create-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 运行构建脚本
+        run: python .github/scripts/build_posts.py
+
+      - name: 提交并推送修改
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: run build script for posts and pagination"
+          branch: main
