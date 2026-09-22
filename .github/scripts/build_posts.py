@@ -24,7 +24,7 @@ target_slash_date = f"{today_year}/{today_month_no_zero}/{today_day_no_zero}"
 target_compact_date = f"{today_year}{today_month_zero}{today_day_zero}"
 
 new_basename = ""
-current_random_speed = f"{round(random.uniform(10.0, 35.0), 1)}M/S"
+current_random_speed = f"{round(random.uniform(10.0, 15.0), 1)}M/S"
 
 # ----------------- 1. 处理 free-nodes 目录下的最新文章 (.htm) -----------------
 all_files = glob.glob(os.path.join(posts_dir, "*.htm")) + glob.glob(os.path.join(posts_dir, "*.html")) + glob.glob(os.path.join(posts_dir, "*.md"))
