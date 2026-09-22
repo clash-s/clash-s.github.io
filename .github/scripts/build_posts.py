@@ -127,7 +127,7 @@ if os.path.exists(base_index_path):
 if 'xcblog-blog-list' not in template_html:
     template_html = '''
 <body data-page="index">
-        <!-- preloaders start -->
+    <!-- preloaders start -->
     <div class="preloader">
         <div class="spinner">
             <div class="rect1"></div>
@@ -148,8 +148,8 @@ if 'xcblog-blog-list' not in template_html:
                     <div class="col-md-4">
                         <div class="header-logo">
                             <a href="/">
-                                                                <h1>Clash-S</h1>
-                                                            </a>
+                                <h1>Clash-S</h1>
+                            </a>
                         </div>
                     </div>
                     <!-- main menu area start -->
@@ -158,11 +158,11 @@ if 'xcblog-blog-list' not in template_html:
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                                                                <li><a href="/">首页</a></li>
-                                                                                <li><a href="/free-nodes/">免费节点</a></li>
-                                                                                <li><a href="/paid-subscribe/">推荐机场</a></li>
-                                                                                <li><a href="/news/">新闻资讯</a></li>
-                                                                                <li><a href="#">关于</a></li>
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/free-nodes/">免费节点</a></li>
+                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                        <li><a href="/news/">新闻资讯</a></li>
+                                        <li><a href="#">关于</a></li>
                                         <li><a href="#">联系</a></li>
                                     </ul>
                                 </nav>
