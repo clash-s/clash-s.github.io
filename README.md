@@ -10,7 +10,7 @@
 
 原生支持解锁流媒体，内容包括 Netflix、Disney、HBO、TVB、Happyon、AbemaTV 等在内的多种流媒体视频
 
-10元 300G/月
+10元 200G/月
 
 
 
